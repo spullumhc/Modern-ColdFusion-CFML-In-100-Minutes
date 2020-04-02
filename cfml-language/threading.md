@@ -28,8 +28,8 @@ Here are some utility functions to assist with logging:
 
 ```java
 // Lucee Only
-sytemOutput( "Hello from thread land", true );
-sytemOutput( myComplexObject, true );
+systemOutput( "Hello from thread land", true );
+systemOutput( myComplexObject, true );
 
 // Dumps
 writedump( var="Hello from thread land", output="console" );
